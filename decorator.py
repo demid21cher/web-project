@@ -22,7 +22,7 @@ def division(a, b):
 # Task #2
 def check_index_error(func):
     def wrapper(list, index):
-        if index < 0 and index >= len(list):
+        if (index < 0 and index >= len(list)) or (index >= 0 and index >= len(list)):
             raise IndexError("Index out of range.")
         return func(list, index)
 
