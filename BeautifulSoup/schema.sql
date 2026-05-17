@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS apple (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    href TEXT NOT NULL UNIQUE,
+    price TEXT
+)
