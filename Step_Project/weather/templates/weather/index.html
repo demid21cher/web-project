@@ -1,0 +1,27 @@
+{% extends 'weather/base.html' %}
+{% block content %}
+    {% if user.is_authenticated %}
+        <h2>Welcome, {{ user.email }}!</h2>
+
+        <form method="post">
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+            <p>
+                {{ form.city.label_tag }}
+                {{ form.city }}
+                {{ form.city.errors }}
+            </p>
+            <button type="submit">Search Weather</button>
+
+        {% if weather %}
+        <div class="weather_info">
+            <span>City: {{ weather.city }}</span>
+            <span>Temperature: {{ weather.temperature }}°C</span>
+            <span>Description: {{ weather.description }}</span>
+        </div>
+        {% endif %}
+    {% else %}
+        <h2>Welcome to the Weather App!</h2>
+        <p>Use the navigation menu to explore the app.</p>
+    {% endif %}
+{% endblock %}
