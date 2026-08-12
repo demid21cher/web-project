@@ -1,0 +1,62 @@
+[
+    {
+        "currency_from": "USD",
+        "currency_to": "USD",
+        "balance_from": 100.0,
+        "balance_to": 100.0
+    },
+    {
+        "currency_from": "UAH",
+        "currency_to": "USD",
+        "balance_from": 1000.0,
+        "balance_to": 22.704001126118456
+    },
+    {
+        "currency_from": "EUR",
+        "currency_to": "UAH",
+        "balance_from": 100.0,
+        "balance_to": 5006.0
+    },
+    {
+        "currency_from": "UAH",
+        "currency_to": "USD",
+        "balance_from": 1000.0,
+        "balance_to": 22.704001126118456
+    },
+    {
+        "currency_from": "UAH",
+        "currency_to": "EUR",
+        "balance_from": 200.0,
+        "balance_to": 3.9408012831248977
+    },
+    {
+        "currency_from": "USD",
+        "currency_to": "EUR",
+        "balance_from": 1000.0,
+        "balance_to": 860.2769201061652
+    },
+    {
+        "currency_from": "UAH",
+        "currency_to": "USD",
+        "balance_from": 100.0,
+        "balance_to": 2.2704001126118456
+    },
+    {
+        "currency_from": "UAH",
+        "currency_to": "EUR",
+        "balance_from": 1000.0,
+        "balance_to": 19.704006415624487
+    },
+    {
+        "currency_from": "EUR",
+        "currency_to": "USD",
+        "balance_from": 1000.0,
+        "balance_to": 1136.56229637349
+    },
+    {
+        "currency_from": "UAH",
+        "currency_to": "USD",
+        "balance_from": 124.0,
+        "balance_to": 2.8152961396386886
+    }
+]
